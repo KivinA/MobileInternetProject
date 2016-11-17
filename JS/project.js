@@ -2,25 +2,22 @@
 /*global $, console
 */
 
-function vergeten()
+function register()
 {
-
-    
-   if($(".divLogin").is(":visible"))
-        {
-            $(".divLogin").hide();
-            $(".divRegister").show(1000);
-        }
-    else{
-        
-        $(".divRegister").show(1000);
-   
-    }   
+    switchPage(".divLogin", ".divRegister");
+    console.log("Works..");
 }
 
-
+function switchPage(frompage, topage)
+{
+    $(frompage).hide();
+    $(topage).show(500);
+}
 
 $(document).ready(function ()
     {
-        $(".divRegister").hide();
+    /*
+     *  BINDING ALL BUTTONS, LINKS, etc.
+     */
+        $('#aForgot').on("touchstart", register);
     });
