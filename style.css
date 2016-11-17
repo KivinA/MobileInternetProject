@@ -53,7 +53,7 @@ a:visited{
     width:100vw;
 }
 
-#frmLogin{
+.frmLogin{
     display: block;
 	margin: auto;
 }
@@ -127,3 +127,77 @@ input{
 
 
 
+/* register CSS FILE */
+
+.divRegister{
+    text-align: center;
+    width:100vw;
+}
+
+#inFirstname{
+    background: url('IMG/per.png') no-repeat left;
+    background-size: 1.2em;
+    padding-left: 1.5em;
+    clear: both;
+    display: block;
+    width : 100%;
+    border: none;
+    border-bottom: 1px solid;
+    height : 40px;
+    font-size: 250%;
+}
+
+#inLastname{
+    background: url('IMG/per.png') no-repeat left;
+    background-size: 1.2em;
+    padding-left: 1.5em;
+    clear: both;
+    display: block;
+    width : 100%;
+    border: none;
+    border-bottom: 1px solid;
+    height : 40px;
+    font-size: 250%;
+}
+
+#inREmail{
+    background: url('IMG/envelope.png') no-repeat left;
+    background-size: 1.4em;
+    padding-left: 1.5em;
+    clear: both;
+    display: block;
+    width : 100%;
+    margin-bottom:2%;
+    border: none;
+    border-bottom: 1px solid;
+    height : 40px;
+    font-size: 250%;
+    margin-top:2%;
+    
+}
+
+#inRPassword{
+    background: url('IMG/password.ico') no-repeat left;
+    background-size: 1.2em;
+    padding-left: 1.5em;
+    clear: both;
+    display: block;
+    width : 100%;
+    border: none;
+    border-bottom: 1px solid;
+    height : 40px;
+    font-size: 250%;
+}
+
+#inconfirm{
+     background: url('IMG/ch.png') no-repeat left;
+    background-size: 1.2em;
+    padding-left: 1.5em;
+    clear: both;
+    display: block;
+    width : 100%;
+    border: none;
+    border-bottom: 1px solid;
+    height : 40px;
+    font-size: 250%;
+}
