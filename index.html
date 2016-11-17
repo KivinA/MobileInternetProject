@@ -4,8 +4,11 @@
           <meta http-equiv="X-UA-Compatible" content="IE=edge">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
           <link rel="stylesheet" href="./style.css" type="text/css" />
-          <script src="/jquery/jquery.mobile-1.4.5.js"></script>
-	   <script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+          <script src="jquery/jquery.mobile-1.4.5.js"></script>
+	       <script src="jquery/jquery.mobile-1.4.5.min.js"></script>
+    <script src="JS/jquery-3.1.1.min.js" type="text/javascript"></script>
+        <script src="JS/project.js" type="text/javascript"></script>
+        
 </head>
 
 <body>  
@@ -20,25 +23,32 @@
 -->
     
            <div class="divLogin">
-            <form id="frmLogin" action="PHP/login.php" method="post">
+            <form class="frmLogin" action="" method="post">
                 <input class="input" id='inEmail' type="text" name="email" placeholder="| EMAIL" required/>
                 <input class="input" id='inPassword' type="password" name="password" placeholder="| PASSWORD" required/>
-                <a id='aForgot' href="recover.html" >Forgot your password?</a>
+                <a id='aForgot' onclick="vergeten()">Forgot your password?</a>
                 <br>
-              <button id="btnLogin" type="submit">LOGIN</button>
+              <button id="btnLogin" type="submit" >LOGIN</button>
             </form>
             </div>
-            
+    
+                
            
-<!-- *****************************************************************************************************
-     ************************************** home Pagina *************************************************
-     *****************************************************************************************************
+<!-- ********************************************************************************************
+     ************************************** home Pagina ************************************************ ***************************************************************************************************
 -->
     
-        
-    
-    
-    
+             <div class="divRegister">
+            <form class="frmLogin" action="" method="post">
+                <input class="input" id='inFirstname' type="text" name="firstname" placeholder="| First Name"/>
+                <input class="input" id='inLastname' type="text" name="lastname" placeholder="| Last Name"/>
+                <input class="input" id='inREmail' type="text" name="email" placeholder="| EMAIL"/>
+                <input class="input" id='inRPassword' type="text" name="password" placeholder="| PASSWORD"/>
+                <input class="input" id='inconfirm' type="text" name="confirm" placeholder="| Confirm PASSWORD"/>
+              
+               <!--<a href="./home.html"> --><button id="btnLogin" type="button">Register</button>
+            </form>
+            </div> 
     
     
     
