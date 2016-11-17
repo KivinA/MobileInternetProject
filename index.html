@@ -39,7 +39,7 @@
 -->
     
              <div class="divRegister">
-                 <img class="back" alt="back" src="IMG/back.PNG">
+                 <img class="back" id="backReg" alt="back" src="IMG/back.PNG">
             <form class="frmLogin" action="" method="post">
                 <input class="input" id='inFirstname' type="text" name="firstname" placeholder="| First Name"/>
                 <input class="input" id='inLastname' type="text" name="lastname" placeholder="| Last Name"/>
@@ -50,10 +50,19 @@
                <!--<a href="./home.html"> --><button id="btnLogin" type="button">Register</button>
             </form>
             </div> 
-    
-    
+<!-- ********************************************************************************************
+     ************************************** Forgot password ******************************************** ***************************************************************************************************
+--> 
+            <div id="divForgot">
+                <img class="back" id="backForgot" alt="back" src="IMG/back.PNG">
+                <form class="frmLogin" action="" method="post">
+                <input class="input" id='inEmail' type="text" name="email" placeholder="| EMAIL"/>
+                <br>
+               <button id="btnSend" type="button">SEND</button>
+            </form>
+            </div> 
     
             <footer id="divfoot">
-                <a>Are you new? Create an account!</a>
+                <a id="register">Are you new? Create an account!</a>
             </footer>
 </body>

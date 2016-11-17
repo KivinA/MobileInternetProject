@@ -128,6 +128,13 @@ input{
 
 
 /* register CSS FILE */
+.back{
+    position: fixed;
+    top: 0%;
+    width: 10%;
+    left: 3%;
+}
+
 
 .divRegister{
     text-align: center;
@@ -201,4 +208,10 @@ input{
     border-bottom: 1px solid;
     height : 47px;
     font-size: 250%;
+}
+
+
+
+#divForgot{
+    display: none;
 }
