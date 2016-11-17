@@ -9,7 +9,7 @@ body{
     position:absolute;
     width : 100vw;
     margin:0%;
-    background-image: url(../IMG/road.png);
+    background-image: url(./IMG/road.png);
     background-size: cover;
     background-repeat: no-repeat;
     min-height : 100%;
@@ -30,12 +30,11 @@ a:visited{
 #titel{
     text-align: center;
     font-size: 60px;
-    /*margin-top:5%;*/
+    width: 100vw;
 }
 
 #divLogo{
-    width:80%;
-    margin-left:10%;
+    width: 100vw;
 }
 
 #imgLogo{
@@ -49,14 +48,9 @@ a:visited{
 /* login CSS FILE */
 
 
-
-
-
-
-#divLogin{
+.divLogin{
     text-align: center;
-    width:80%;
-    margin-left:10%;
+    width:100vw;
 }
 
 #frmLogin{
@@ -64,37 +58,43 @@ a:visited{
 	margin: auto;
 }
 
+input{
+    
+}
+
 #inEmail{
-    background: url('../IMG/envelope.png') no-repeat left;
+    background: url('IMG/envelope.png') no-repeat left;
     background-size: 1.2em;
-    background-color: rgba(0,0,0,0.5);
-    padding-left: 1.5em;
+   /* background-color: rgba(0,0,0,0.5);*/
     clear: both;
     display: block;
-    width : 100%;
-    margin-bottom:2%;
+    padding-left: 1.2em;
+    width : 100vw;
     border: none;
     border-bottom: 1px solid;
     height : 40px;
     font-size: 250%;
+    margin-top: 2%;
 }
 
 #inPassword{
-    background: url('../IMG/password.ico') no-repeat left;
+    background: url('IMG/password.ico') no-repeat left;
     background-size: 1.2em;
-    padding-left: 1.5em;
+    padding-left: 1.2em;
     clear: both;
     display: block;
-    width : 100%;
+    width : 100vw;
     border: none;
     border-bottom: 1px solid;
     height : 40px;
     font-size: 250%;
+    margin-top: 2%;
 }
 
 #aForgot{
     display: block;
     text-align: right;
+    font-size: 120%;
 }
 
 #btnLogin{
