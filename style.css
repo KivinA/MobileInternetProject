@@ -132,6 +132,7 @@ input{
 .divRegister{
     text-align: center;
     width:100vw;
+    display: none;
 }
 
 #inFirstname{
